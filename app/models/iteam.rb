@@ -1,0 +1,2 @@
+class Iteam < ApplicationRecord
+end

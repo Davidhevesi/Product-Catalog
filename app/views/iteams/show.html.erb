@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @iteam.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @iteam.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @iteam.price %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @iteam.color %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @iteam.quantity %>
+</p>
+
+<%= link_to 'Edit', edit_iteam_path(@iteam) %> |
+<%= link_to 'Back', iteams_path %>
