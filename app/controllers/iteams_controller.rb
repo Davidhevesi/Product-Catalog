@@ -5,6 +5,7 @@ class IteamsController < ApplicationController
   # GET /iteams.json
   def index
     @iteams = Iteam.all
+    @iteam = Iteam.new
   end
 
   # GET /iteams/1
